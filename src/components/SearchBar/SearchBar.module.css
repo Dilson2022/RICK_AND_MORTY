@@ -1,0 +1,35 @@
+.container{
+    background-color: transparent;
+    display: flex;
+    padding: 10px 0;
+    /* background-image: url( "../../assets/rick-and-morty-portal.jpg"); */
+    /* background-size:50px; */
+    /* filter:opacity(0.3); */
+    
+}
+
+
+
+.containerInput{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    
+}
+.input{
+    border-radius: 20px;
+    height: 30px;
+    padding: 10px;
+
+}
+
+.btn{
+    background-color:rgb(196, 81, 81);
+    border-radius: 20px;
+    color: white
+}
+
+.btn:hover{
+    cursor: pointer;
+}
