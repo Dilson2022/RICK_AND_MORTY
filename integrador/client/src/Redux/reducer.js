@@ -15,7 +15,7 @@ switch(action.type){
     case REMOVE_FAV:
         return{
             ...state,
-            myFavorites: state.myFavorites.filter(char=> char.id !== action.payolad)
+            myFavorites: state.myFavorites.filter(char=> char.id !== action.payload)
         }
     default:
         return state
