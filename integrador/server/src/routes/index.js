@@ -1,5 +1,5 @@
 const express = require("express");
-const {login, getCharById, postFav, deleteFav} = require("../controllers");
+const {login, getCharById, postFav, deleteFav} = require("../controllers/index");
 
 const router = express.Router();
 

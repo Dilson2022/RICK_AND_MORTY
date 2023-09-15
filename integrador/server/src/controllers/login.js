@@ -6,7 +6,7 @@ function login (req, res){
 //     (user => user.email === email && user.password === password
 //  );
     const prueba = users.some(user => user.email === email && user.password === password)
-    user ? res.json({access: true}) : res.json({access: false})
+    prueba ? res.json({access: true}) : res.json({access: false})
 }
 
 module.exports = login;
